@@ -13,16 +13,7 @@ Cloud incident-response investigations from [CyberDefenders](https://cyberdefend
 | [AWSRaid](awsraid/) | CloudTrail hunt: brute-forced login → S3 exfil → public bucket → persistence & priv-esc | Splunk, AWS CloudTrail | T1110, T1530, T1136, T1098 | **Done** |
 | [AZUREHUNT](azurehunt/) | Entra ID hunt in Elastic: sign-in from Germany → Blob exfil → lateral move to admin → VM start & DB export → backdoor user & Owner role | Elastic (ELK) | T1078.004, T1530, T1537, T1136.003, T1098.003 | **Done** |
 
-## How this repo is organized
 
-```
-cloud-forensics/
-  README.md
-  write-up-template.md
-  awsraid/
-    README.md
-    images/
-```
 
 ## Responsible disclosure
 
